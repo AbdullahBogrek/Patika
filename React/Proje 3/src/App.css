@@ -1,0 +1,38 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: white;
+    height: 100vh;
+    padding-top: 10rem;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-daily {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 140px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.weather-daily:hover {
+    background: #eceaea;
+}
+
+.dropdown {
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
