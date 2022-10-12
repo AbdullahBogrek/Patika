@@ -1,0 +1,63 @@
+/* add css module styles here (optional) */
+
+.default {
+  margin: 10px;
+  background-color: white;
+  border: 1px solid rgb(223, 220, 220);
+  padding: 11px 25px;
+  border-radius: 3px;
+}
+
+.default:hover {
+  background-color: rgb(231, 229, 229);
+}
+
+.primary {
+  margin: 10px;
+  background-color: #2a9df4;
+  border: 1px solid rgb(238, 236, 236);
+  padding: 11px 25px;
+  border-radius: 3px;
+  color: white
+}
+
+.primary:hover {
+  background-color: #1f79be;
+}
+
+.dashed {
+  margin: 10px;
+  background-color: white;
+  border: 1px dashed rgb(223, 220, 220);
+  padding: 11px 25px;
+  border-radius: 3px;
+}
+
+.dashed:hover {
+  background-color: rgb(231, 229, 229);
+}
+
+.text {
+  margin: 10px;
+  background-color: white;
+  border: none;
+  padding: 11px 25px;
+}
+
+.text:hover {
+  background-color: rgb(231, 229, 229);
+}
+
+.link {
+  margin: 10px;
+  background-color: white;
+  border: none;
+  padding: 11px 25px;
+  color: #1f79be;
+  font-weight: 500; 
+}
+
+.link:hover {
+  text-decoration: underline;
+  background-color: rgb(231, 229, 229);
+}
